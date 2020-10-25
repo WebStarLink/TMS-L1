@@ -1,0 +1,137 @@
+/* STYLE HIERARHY - style:1000, id:100, class:10, div:1 */
+
+/*Local fonts here
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-SemiBold.ttf);
+  }
+
+*/
+
+
+/*Flaticon*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("fonts/Flaticon.woff2") format("woff2"),
+       url("fonts/Flaticon.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 50px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-smartphone:before { content: "\f100"; }
+.flaticon-smartphone-1:before { content: "\f101"; }
+.flaticon-video:before { content: "\f102"; }
+.flaticon-selfie:before { content: "\f103"; }
+.flaticon-mail:before { content: "\f104"; }
+.flaticon-love-message:before { content: "\f105"; }
+.flaticon-phone-call:before { content: "\f106"; }
+.flaticon-phone-call-1:before { content: "\f107"; }
+.flaticon-phone:before { content: "\f108"; }
+.flaticon-mobile-store:before { content: "\f109"; }
+.flaticon-smartphone-4:before { content: "\f10a"; }
+.flaticon-mobile-phone:before { content: "\f10b"; }
+.flaticon-map:before { content: "\f10c"; }
+.flaticon-map-1:before { content: "\f10d"; }
+.flaticon-route:before { content: "\f10e"; }
+.flaticon-gps:before { content: "\f10f"; }
+.flaticon-smartphone-2:before { content: "\f110"; }
+.flaticon-smartphone-3:before { content: "\f111"; }
+.flaticon-instagram:before { content: "\f112"; }
+.flaticon-instagram-1:before { content: "\f113"; }
+.flaticon-html:before { content: "\f114"; }
+.flaticon-css:before { content: "\f115"; }
+.flaticon-js-format:before { content: "\f116"; }
+.flaticon-search:before { content: "\f117"; }
+.flaticon-logotype:before { content: "\f118"; }
+.flaticon-yandex:before { content: "\f119"; }
+.flaticon-facebook:before { content: "\f11a"; }
+
+
+
+/* Main Styles */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  border-radius: 10px;
+}
+
+.blockstyle {
+  border-radius: 10px;
+  background-color: #444;
+  padding: 10px;
+  color: #fff;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  margin: 10px 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.box-size {
+  width: calc (5 * 20px);
+  padding: 30px;
+  border: 10px solid #000;
+  margin: 0 30px;
+  box-sizing: border-box;
+}
+
+#blockid {
+  background: rgb(250, 100, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 100, 0, 1) 0%,
+    rgba(121, 9, 103, 1) 54%,
+    rgba(0, 104, 255, 1) 100%
+  );
+  color: #fff;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+.default {
+  font-size: 40px;
+}
+
+div {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30px 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Montserrat;
+  font-weight: 500;
+  margin: 20px 0;
+}
+ul,
+li,
+P,
+a {
+  font-family: Montserrat;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+a {
+  font-weight: 500;
+  color: #777777;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
